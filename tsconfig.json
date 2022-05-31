@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // 严格检查的总开关
+    "strict": true,
+    // 编译ts出现的版本
+    "target": "ESNext",
+    // 模块化版本
+    "module": "amd",
+    // 包含的库
+    "lib": ["DOM", "esnext"],
+    // outDir用来指定编译后所在的目录
+    "outDir": "./dist",
+    //  合并文件只支持amd
+    "outFile": "./dist/app.js",
+    // allowJs是否对js文件进行编译，默认是false
+    "allowJs": false,
+    // 是否检查js语法是否符合规范,默认是false
+    "checkJs": false,
+    // 注释是否编译到js文件,默认false
+    "removeComments": false,
+    // 不生成编译后的文件
+    "noEmit": false,
+    // 有错误不生成编译文件
+    "noEmitOnError": false,
+    // 编译严格模式
+    "alwaysStrict": true,
+    // 不允许掩式any
+    "noImplicitAny": true,
+    // 不允许不明确的类型this
+    "noImplicitThis": false,
+    // 检查空值
+    "strictNullChecks": true,
+    
+  },
+  // 包含的目录
+  "include": ["./src/**/*.ts"],
+  // 排除文件
+  "exclude": []
+}
