@@ -34,12 +34,12 @@
   },
   "dependencies": {}
 }
-<!-- 
 
-gihub token认证
+
+# gihub token认证
 settings ---\> Developer settings---\>Personal access tokens---\>generate a personal access token ---\>repo admin:org admin:public_key admin:repo_hook admin:org_hook
 点击绿色按钮生成token
     
--->
+
 
     
