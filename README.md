@@ -113,6 +113,10 @@ module.exports = {
 settings ---\> Developer settings---\>Personal access tokens---\>generate a personal access token ---\>repo admin:org admin:public_key admin:repo_hook admin:org_hook
 点击绿色按钮生成token
     
+# 面向对象
+操作对象 three.js 难的是对象的封装对对象的一些操作js是一个基与原型继承，构造对象的语言
+# 实例和静态
+static静态定义 实例直接写
+继承 和 重写方法 
+super相当于父类
 
-
-    
