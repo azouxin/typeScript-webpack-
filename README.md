@@ -120,3 +120,29 @@ static静态定义 实例直接写
 继承 和 重写方法 
 super相当于父类
 
+# 接口和类型别名的区别和相同点
+
+接口可以声明两次 type不能
+相同：
+都可以去定义对象的结构
+# 定义类使用接口规范
+接口是个什么东西：接口定义一个规范去生成满足规范的对象
+interface myterface {
+  name:string;
+  sayHello():void;
+}
+class Zou implements myterface{
+  name:string='1';
+  sayHello(): void {
+    
+  }
+}
+# 对属性做限制的修饰符
+public 可以在任意位置访问 默认
+private 私有属性只能在类的内部进行修改
+protected 可以在子类去使用
+readonly 只读
+static 静态属性
+get set 定义一个private的属性外部不能访问可以用get 和set去读写属性的值，如果采用public直接定义一个属性确实可以直接去读取和设置当是丢失了控制权
+# 泛型
+# css插件
