@@ -4,6 +4,7 @@ export class Food{
   constructor(){
     // 获取食物赋值给element
     this.element=document.querySelector('.food')!;
+    this.changeOffSet()
   }
   // 获取食物x轴坐标的放法
   get x(){

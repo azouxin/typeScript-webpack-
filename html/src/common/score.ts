@@ -6,7 +6,7 @@ export class ScorePanel {
   maxLevel: number;
   constructor(maxLevel: number = 10) {
     this.scopeEle = document.querySelector('.scope')!;
-    this.leveEle = document.querySelector('.leve')!;
+    this.leveEle = document.querySelector('.level')!;
     this.maxLevel = maxLevel;
   }
   changeScope() {
