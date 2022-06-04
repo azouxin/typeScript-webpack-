@@ -17,6 +17,7 @@ module.exports = {
     // 配置打包不适用箭头函数
     environment: {
       arrowFunction: false,
+      const: false,
     },
   },
   // 指定webpack打包时要使用模块
